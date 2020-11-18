@@ -1,15 +1,15 @@
-app:
+#app:
   #add application environment variables
-  mode: ${MODE:?system}
-kafka:
-  consumer:
+  #mode: ${MODE:?system}
+#kafka:
+  #consumer:
     #bootstrap.servers: localhost:9092,localhost:9093,localhost:9094
     #bootstrap.servers: ${KAFKA_BOOTSTRAP_SERVERS:?system}
     #client.id: ${CLIENT_ID:?system}
     #group.id: ${GROUP_ID:?system}
     #enable.auto.commit: ${ENABLE_AUTO_COMMIT:?system}
     #auto_offset_reset_config: earliest
-  topic:
+  #topic:
     #in: ${TOPIC_IN:?system}
     #out: ${TOPIC_PROCESS:?system}
     #process: process
