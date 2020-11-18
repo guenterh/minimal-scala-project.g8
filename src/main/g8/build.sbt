@@ -1,8 +1,9 @@
-//import Dependencies._
+import Dependencies._
+
 scalaVersion := "2.13.3"
 
 
-/*
+
 ThisBuild / scalaVersion := "2.13.3"
 
 ThisBuild / organization := "ch.swisscollections"
@@ -16,7 +17,7 @@ ThisBuild / git.gitTagToVersionNumber := { tag: String =>
   }
 }
 
- */
+
 
 
 /* D. Westheide part - perhaps useful
@@ -34,12 +35,12 @@ libraryDependencies ++= Seq(
 
  */
 
-/*
+
 
 lazy val root = (project in file("."))
   .enablePlugins(GitVersioning)
   .settings(
-    name := "SOLR Indexer",
+    name := "TODO New Name",
     assemblyJarName in assembly := "app.jar",
     test in assembly := {},
     assemblyMergeStrategy in assembly := {
@@ -67,4 +68,4 @@ lazy val root = (project in file("."))
       scalaTest % Test
     )
   )
-*/
+
