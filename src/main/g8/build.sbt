@@ -1,7 +1,10 @@
-import Dependencies._
+//import Dependencies._
+scalaVersion := "2.13.3"
 
 
+/*
 ThisBuild / scalaVersion := "2.13.3"
+
 ThisBuild / organization := "ch.swisscollections"
 ThisBuild / organizationName := "swisscollections"
 ThisBuild / git.gitTagToVersionNumber := { tag: String =>
@@ -12,6 +15,8 @@ ThisBuild / git.gitTagToVersionNumber := { tag: String =>
     None
   }
 }
+
+ */
 
 
 /* D. Westheide part - perhaps useful
@@ -28,6 +33,8 @@ libraryDependencies ++= Seq(
 )
 
  */
+
+/*
 
 lazy val root = (project in file("."))
   .enablePlugins(GitVersioning)
@@ -60,3 +67,4 @@ lazy val root = (project in file("."))
       scalaTest % Test
     )
   )
+*/
