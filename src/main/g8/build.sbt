@@ -8,7 +8,7 @@ ThisBuild / scalaVersion := "2.13.3"
 ThisBuild / organization := "ch.swisscollections"
 ThisBuild / organizationName := "swisscollections"
 ThisBuild / git.gitTagToVersionNumber := { tag: String =>
-  if (tag matches "[0-9]+\\..*") {
+  if (tag matches "[0-9]+\\\\..*") {
     Some(tag)
   }
   else {
