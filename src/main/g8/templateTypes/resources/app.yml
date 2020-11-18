@@ -1,7 +1,7 @@
 #app:
   #add application environment variables
   #mode: ${MODE:?system}
-#kafka:
+  #kafka:
   #consumer:
     #bootstrap.servers: localhost:9092,localhost:9093,localhost:9094
     #bootstrap.servers: ${KAFKA_BOOTSTRAP_SERVERS:?system}
