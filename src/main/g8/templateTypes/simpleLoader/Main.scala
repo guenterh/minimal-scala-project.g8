@@ -18,7 +18,7 @@ object Main extends Logging{
 
 
   logger.info("starting service with the following config settings")
-  settings.getAppSettings.forEach((key,value) => logger.info(s"key: $key \- value: $value"))
+  settings.getAppSettings.forEach((key,value) => logger.info(s"key: $key  value: $value"))
 
 
 
