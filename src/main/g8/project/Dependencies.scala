@@ -24,6 +24,13 @@ object Dependencies {
   lazy val log4jscalaV  = "12.0"
   lazy val scalatestV = "3.1.2"
   //lazy val memobaseUtilsV = "1.4.1"
+  //lazy val uJsonV = "1.2.2"
+  //lazy val uPickleV = "1.2.2"
+  //lazy val osLibV = "0.7.1"
+  //lazy val requestsV = "0.6.5"
+  lazy val jwtPlayV = "4.3.0"
+  lazy val joseJwtV = "8.16"
+
 
 
   lazy val log4jApi = "org.apache.logging.log4j" % "log4j-api" % log4jV
@@ -33,6 +40,14 @@ object Dependencies {
   //lazy val memobaseServiceUtils = "org.memobase" % "memobase-service-utilities" % memobaseUtilsV
   lazy val scalatic = "org.scalactic" %% "scalactic" % scalatestV
   lazy val scalaTest = "org.scalatest" %% "scalatest" % scalatestV
+
+
+  //lazy val ujson = "com.lihaoyi" %% "ujson" % uJsonV
+  //lazy val uPickle = "com.lihaoyi" %% "upickle" % uPickleV
+  //lazy val osLib = "com.lihaoyi" %% "os-lib" % osLibV
+  //lazy val requests = "com.lihaoyi" %% "requests" % requestsV
+  lazy val jwtPlay = "com.pauldijou" %% "jwt-play-json" % jwtPlayV
+  lazy val joseJwt = "com.nimbusds" % "nimbus-jose-jwt" % joseJwtV
 
 
 
