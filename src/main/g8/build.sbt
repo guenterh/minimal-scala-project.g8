@@ -1,8 +1,5 @@
 import Dependencies._
 
-scalaVersion := "2.13.3"
-
-
 
 ThisBuild / scalaVersion := "2.13.3"
 
